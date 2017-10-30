@@ -20,6 +20,7 @@
   "support": {
     "issues": "https://drupal.org/project/issues/blazy_blurry_placeholder"
   },
-  "require": { 
+  "require": {
+    "drupal/blazy": "*"
   }
 }
