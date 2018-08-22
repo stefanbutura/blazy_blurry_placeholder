@@ -10,7 +10,7 @@ use Drupal\Core\Entity\Entity\EntityViewDisplay;
 function blazy_blurry_placeholder_preprocess_image(&$variables) {
   if (empty($variables['attributes']['class'])
     || empty($variables['attributes']['uri'])
-    || !in_array('b-lazy', $variables['attributes']['class'])
+    || strpos(implode(' ', $variables['attributes']['class']), 'b-lazy') === FALSE
     || empty($variables['attributes']['use_blurry_placeholder'])
     || !$variables['attributes']['use_blurry_placeholder']) {
     return;
