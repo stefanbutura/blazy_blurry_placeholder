@@ -1,10 +1,10 @@
 .blazy.field--type-image {
-    width: 100%;
+    /*width: 100%;*/
 }
 .blazy.field--type-image .media--loading,
 .blazy.field--type-image .media--loading figure,
 .blazy.field--type-image .media--loading img {
-    width: 100%;
+    /*width: 100%;*/
 }
 .blazy.field--type-image .b-lazy {
     filter: blur(3px);
