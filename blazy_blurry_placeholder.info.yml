@@ -4,3 +4,5 @@ description: "Changes the default placeholder shown while loading a blazy image 
 core: 8.x
 dependencies:
   - blazy
+  - image_effects
+
