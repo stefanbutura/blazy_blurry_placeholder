@@ -21,7 +21,6 @@
     "issues": "https://drupal.org/project/issues/blazy_blurry_placeholder"
   },
   "require": {
-    "drupal/blazy": "*",
-    "drupal/image_effects": "*",
+    "drupal/blazy": "*"
   }
 }
